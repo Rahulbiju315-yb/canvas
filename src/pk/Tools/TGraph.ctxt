@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=gs
+comment0.target=void\ set(java.awt.Graphics)
+comment0.text=\r\n\ Sets\ the\ temporary\ graphics\ variable\r\n
+numComments=1

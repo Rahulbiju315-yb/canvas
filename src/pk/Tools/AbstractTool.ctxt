@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=x\ y\ x1\ y1
+comment0.target=void\ handle(int,\ int,\ int,\ int)
+comment0.text=\r\n\ Handle\ method\ handles\ the\ drawing\ of\ the\ tool.\r\n
+comment1.params=x\ y
+comment1.target=void\ repeat(int,\ int)
+comment1.text=\r\n\ Repeat\ method\ is\ used\ in\ case\ a\ repetitive\ drawing\ on\ the\ TGraph\ is\ required,\r\n\ which\ must\ be\ repainted\ along\ with\ the\ graphics\ of\ Canvas\r\n
+comment2.params=x\ y\ x1\ y1
+comment2.target=void\ drag(int,\ int,\ int,\ int)
+comment2.text=\r\n\ Handles\ drag\r\n
+comment3.params=x\ y\ x1\ y1
+comment3.target=void\ pressed(int,\ int,\ int,\ int)
+comment3.text=\r\n\ Handles\ mouse\ pressed\r\n
+comment4.params=x\ y
+comment4.target=void\ released(int,\ int)
+comment4.text=\r\n\ Handles\ mouse\ released\r\n
+comment5.params=x\ y
+comment5.target=void\ moved(int,\ int)
+comment5.text=\r\n\ Handles\ mouse\ moved\r\n
+comment6.params=x\ y
+comment6.target=void\ setInit(int,\ int)
+comment6.text=\r\n\ Sets\ the\ initial\ x,y\ cordinates\ when\ mouse\ is\ pressed.Useful\ for\ certaint\ tools\ like\ mystify,selec,etc...\r\n
+numComments=7

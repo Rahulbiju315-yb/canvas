@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=dist
+comment0.target=ResizableBorder(int)
+comment1.params=component
+comment1.target=java.awt.Insets\ getBorderInsets(java.awt.Component)
+comment2.params=
+comment2.target=boolean\ isBorderOpaque()
+comment3.params=component\ g\ x\ y\ w\ h
+comment3.target=void\ paintBorder(java.awt.Component,\ java.awt.Graphics,\ int,\ int,\ int,\ int)
+comment4.params=x\ y\ w\ h\ location
+comment4.target=java.awt.Rectangle\ getRectangle(int,\ int,\ int,\ int,\ int)
+comment5.params=me
+comment5.target=int\ getCursor(java.awt.event.MouseEvent)
+numComments=6

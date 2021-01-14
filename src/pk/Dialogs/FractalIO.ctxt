@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=void\ write(java.lang.String[])
+comment0.text=\r\n\ \ Write\ the\ fractal\ definition\ consisting\ of\ the\ above\ parameters.\r\n\ \ Last\ parameter\ gives\ the\ fractal\ name.(Name\ of\ file)\r\n
+comment1.params=name
+comment1.target=void\ read(java.lang.String)
+comment1.text=\r\n\ Loads\ the\ fractal\ from\ the\ given\ file\r\n
+numComments=2

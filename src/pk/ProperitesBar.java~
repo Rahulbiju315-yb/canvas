@@ -1,0 +1,24 @@
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import Tools.*;
+
+public class ProperitesBar extends JPanel
+{
+    JPanel p;
+    public PropertiesBar(JPanel panel)
+    {
+        super();
+        p = panel;
+        
+        JButton colorPalette = new JButton("Color Pallete");
+        colorPalette.addActionListener( new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                
+            }
+        });
+    }
+}

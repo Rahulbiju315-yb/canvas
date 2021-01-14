@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=seltool
+comment0.target=void\ setTool(int)
+comment1.params=
+comment1.target=int\ getTool()
+comment1.text=\r\n\ \ Gets\ the\ tool\ id\ of\ the\ curent\ selected\ tool\r\n
+comment2.params=
+comment2.target=AbstractTool\ getAsTool()
+comment2.text=\r\n\ \ Returns\ an\ AbstractTool\ of\ the\ current\ selected\ tool.\r\n
+numComments=3

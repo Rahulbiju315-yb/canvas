@@ -1,0 +1,33 @@
+package Tools;
+
+
+import java.awt.*;
+import java.awt.image.*;
+
+public class SelImg
+{
+    public static BufferedImage selImg = new BufferedImage(1100,800,BufferedImage.TYPE_INT_RGB);
+    
+    static public int x =-1;
+    static public int y;
+    static public int w;
+    static public int h;
+    
+    static public int prx,pry;
+    public static void set(int xx,int yy,int ww,int hh)
+    {
+        Graphics g = selImg.getGraphics();
+        g.drawImage(AbstractHandler.easel.image,0,0,null);
+        g.dispose();
+        
+        x = xx;
+        y = yy;
+        w = ww;
+        h = hh;
+    }
+    
+    public static void drawBorder()
+    {
+       
+    }
+}

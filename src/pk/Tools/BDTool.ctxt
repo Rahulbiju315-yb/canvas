@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BDTool()
+comment1.params=
+comment1.target=boolean\ getSelected()
+comment2.params=sel
+comment2.target=void\ setSelected(boolean)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=x\ y\ x1\ y1
+comment4.target=void\ handle(int,\ int,\ int,\ int)
+numComments=5

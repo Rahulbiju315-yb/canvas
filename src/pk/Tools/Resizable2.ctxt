@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Resizable2()
+comment1.params=w\ h
+comment1.target=void\ setArea(int,\ int)
+comment2.params=g
+comment2.target=void\ paint(java.awt.Graphics)
+numComments=3

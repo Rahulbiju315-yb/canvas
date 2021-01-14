@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=posX\ posY\ r
+comment0.target=boolean\ isColor(int,\ int,\ int)
+comment0.text=\r\n\ Checks\ whether\ the\ color\ at\ \ point\ posX,posY\ is\ not\ \ equal\ to\ the\ color\ of\ the\ point\ first\ clicked\r\n
+comment1.params=x\ y\ x1\ y1
+comment1.target=void\ handle(int,\ int,\ int,\ int)
+numComments=2

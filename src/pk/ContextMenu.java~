@@ -1,0 +1,19 @@
+package pk;
+
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+/**
+ *  @author Rahul B.
+ *  ContextMenu for selection tool
+ */
+public class ContextMenu extends JPopupMenu
+{
+    public ContextMenu()
+    {
+        add(new Actions.Copy("Copy"));
+        add(new Actions.Paste("Paste"));
+    }
+}

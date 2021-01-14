@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FractalProp()
+comment1.params=event
+comment1.target=void\ itemStateChanged(java.awt.event.ItemEvent)
+comment10.params=
+comment10.target=void\ sync()
+comment10.text=\r\n\ \ Syncs\ the\ level\ and\ rotation\ values.\r\n
+comment2.params=ev
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ stateChanged(javax.swing.event.ChangeEvent)
+comment4.params=e
+comment4.target=void\ stateChanged(javax.swing.event.ChangeEvent)
+comment5.params=ex
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=e
+comment8.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment9.params=
+comment9.target=void\ refresh()
+comment9.text=\r\n\ \ Refreshes\ the\ frn\ combobox\ by\ reloading\ the\ saved-fractals.\r\n
+numComments=11

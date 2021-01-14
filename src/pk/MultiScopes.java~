@@ -1,0 +1,24 @@
+import javax.script.*;
+
+public class MultiScopes {
+    public static void main(String[] args) throws Exception {
+        ScriptEngineManager manager = new ScriptEngineManager();
+        ScriptEngine engine = manager.getEngineByName("JavaScript");
+
+        engine.put("x", 23);
+        // print global variable "x"
+        engine.eval("x = 23+23");
+        // the above line prints "hello"
+
+        // Now, pass a different script context
+        
+
+        // add new variable "x" to the new engineScope        
+        
+        Integer a =(Integer)engineScope.get("x");
+        System.out.println(a.intValue());
+        // execute the same script - but this time pass a different script context
+        //engine.eval("print(x);", newContext);
+        // the above line prints "world"
+    }
+}

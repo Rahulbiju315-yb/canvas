@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=x
+comment0.target=int\ iX(double)
+comment0.text=\r\n\ Converts\ continuous\ to\ discrete\ cordinates.\r\n
+comment1.params=y
+comment1.target=int\ iY(double)
+comment2.params=x
+comment2.target=double\ fx(double)
+comment2.text=\r\n\ Coverts\ discrete\ to\ continuous\ cordinates.\r\n
+comment3.params=y
+comment3.target=double\ fy(double)
+comment4.params=
+comment4.target=Fractal()
+comment5.params=x\ y
+comment5.target=void\ moveTo(double,\ double)
+comment6.params=g\ x\ y
+comment6.target=void\ lineTo(Easel,\ double,\ double)
+comment7.params=e\ instruction\ depth\ len
+comment7.target=void\ fractals(Easel,\ java.lang.String,\ int,\ double)
+comment8.params=e
+comment8.target=void\ fractals(Easel)
+numComments=9

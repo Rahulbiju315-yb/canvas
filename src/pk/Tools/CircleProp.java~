@@ -1,0 +1,66 @@
+package Tools;
+
+
+
+
+import javax.swing.*;
+import java.awt.event.*;
+import javax.swing.event.*;
+import javax.swing.border.*;
+public class CircleProp extends JPanel
+{
+    JRadioButton pb = new JRadioButton("SPEED BASED",Properties.OvalProp.filled);
+    JRadioButton sb= new JRadioButton("POSITION BASED",Properties.OvalProp.filled);
+    JRadioButton filled = new JRadioButton("FILLED?");
+    public CircleProp()
+    {
+        sb.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                if(sb.isSelected())Properties.OvalProp.selected = Properties.OvalProp.SPEED_BASED;
+                else Properties.OvalProp.selected = Properties.OvalProp.POS_BASED;
+                
+                System.out.println(" NO ERROR");
+            }
+        });
+        pb.addChangeListener(new ChangeListener()
+        {
+            public void stateChanged(ChangeEvent e)
+            {
+                if(sb.isSelected())Properties.OvalProp.selected = Properties.OvalProp.SPEED_BASED;
+                else Properties.OvalProp.selected = Properties.OvalProp.POS_BASED;
+                
+                System.out.println(" NO ERROR");
+            }
+        });
+        filled.addChangeListener(new ChangeListener()
+        {
+            public void stateChanged(ChangeEvent e)
+            {
+                Properties.OvalProp.filled = !(Properties.OvalProp.filled);
+            }
+        });
+        
+        
+        ButtonGroup g = new ButtonGroup();
+        setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
+        g.add(sb);
+        g.add(pb);
+        
+        add(sb);
+        add(pb);
+        add(filled);
+        setBorder(new BevelBorder(BevelBorder.RAISED));
+    }
+    
+    public int getSelected()
+    {
+        if(sb.isSelected()) return 1;
+        else return 2;
+    }
+    public void update()
+    {
+        repaint();
+    }
+}

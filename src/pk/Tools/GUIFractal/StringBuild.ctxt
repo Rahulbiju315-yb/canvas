@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StringBuild()
+comment1.params=ch
+comment1.target=void\ append(char)
+comment2.params=
+comment2.target=java.lang.String\ getString()
+numComments=3

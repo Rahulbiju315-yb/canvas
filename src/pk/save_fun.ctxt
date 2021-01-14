@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=panel
+comment0.target=save_fun(javax.swing.JPanel)
+comment1.params=
+comment1.target=void\ show()
+comment1.text=\r\n\ \ Shows\ the\ file\ chooser.\r\n
+comment2.params=f
+comment2.target=void\ save(java.io.File)
+comment2.text=\r\n\ \ Saves\ the\ file\ f\ .\r\n
+numComments=3

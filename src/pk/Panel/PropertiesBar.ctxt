@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=a
+comment0.target=void\ update(int)
+comment0.text=\r\n\ \ Method\ to\ update\ the\ property\ panel\ based\ on\ the\ current\ selected\ tool.\r\n\ \ Whenever\ a\ tool\ is\ selected\ this\ method\ is\ called\ with\ parameter\ of\ id\ of\ tool.\r\n
+comment1.params=c
+comment1.target=void\ setColor(java.awt.Color)
+comment1.text=\r\n\ \ Set\ the\ color\ of\ the\ color\ label\r\n\ \ The\ color\ label\ displays\ the\ current\ selected\ color\r\n
+numComments=2

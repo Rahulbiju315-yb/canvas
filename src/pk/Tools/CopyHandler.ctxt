@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=bim
+comment0.target=void\ copyImage(java.awt.image.BufferedImage)
+comment0.text=\r\n\ \ Copies\ the\ image\ (bim\ parameter)\ to\ the\ system\ clipboard\r\n
+comment1.params=c\ t
+comment1.target=void\ lostOwnership(java.awt.datatransfer.Clipboard,\ java.awt.datatransfer.Transferable)
+comment2.params=
+comment2.target=java.awt.Image\ getImageFromClipboard()
+comment2.text=\r\n\ This\ function\ return\ an\ object\ of\ type\ image\ from\ the\ system\ clipboard.\ \r\n
+numComments=3

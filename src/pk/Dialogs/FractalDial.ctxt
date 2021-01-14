@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FractalDial()
+comment1.params=s
+comment1.target=void\ init(java.lang.String[])
+comment1.text=\r\n\ \ Initialise\ all\ text\ field\ values\ to\ the\ corresponding\ values\ of\ the\ already\ loaded\ fractals\r\n
+comment2.params=
+comment2.target=void\ show()
+comment2.text=\r\n\ Shows\ the\ fractal\ dialog\ box\r\n
+numComments=3

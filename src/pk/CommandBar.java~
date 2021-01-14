@@ -1,0 +1,32 @@
+
+import javax.swing.*;
+import java.awt.event.*;
+import clgl.*;
+import Tools.*;
+public class CommandBar extends JPanel
+{
+   public CommandBar(JPanel p)
+   {
+       JTextArea area = new JTextArea(3,5);
+       JTextField field = new JTextField(300);
+       JButton b = new JButton("EXECUTE"); 
+               b.addActionListener(new ActionListener()
+               {
+                   public void actionPerformed(ActionEvent e)
+                   {
+                       
+                       Interpreter.execute(area,field.getText());
+                       area.setText("CANNOT FIND THIS COMMAND");
+                    
+                       p.repaint();
+                   }
+               });
+       JPanel pan = new JPanel();
+       //pan.setLayout(new BoxLayout(this,BoxLayout.X_AXIS));
+       setLayout(new BoxLayout(this,BoxLayout.X_AXIS));
+       add(area);
+       add(field);
+       add(b);
+       
+   }
+}

@@ -1,0 +1,12 @@
+package pk.Tools.Listener;
+
+
+/**
+ * @author Rahul B.
+ * Listener for zoom function.
+ * Whenever the canvas is zoomed, it calls the zoomed method.
+ */
+public interface ZoomListener
+{
+    public abstract void zoomed(double a);
+}

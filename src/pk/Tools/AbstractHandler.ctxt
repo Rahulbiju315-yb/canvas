@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=x\ y\ x2\ y2
+comment0.target=void\ handle(int,\ int,\ int,\ int)
+comment0.text=\ The\ method\ handle(int,int,int,int)\ takes\ 4\ parameters\ x,y,x2,y2\ \r\n\ x\ ->previous\ x\r\n\ y\ ->previous\ y\r\n\ x2->current\ \ x\r\n\ y2->current\ \ y(mouse\ cordinates)\r\n
+comment1.params=easel
+comment1.target=void\ setEasel(Easel)
+numComments=2

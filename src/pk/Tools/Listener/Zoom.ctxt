@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=zf
+comment0.target=void\ setZoomFactor(double)
+comment0.text=\r\n\ Sets\ the\ zoom\ factor\r\n
+comment1.params=wc
+comment1.target=int\ toScreen(double)
+comment1.text=\r\n\ Converts\ the\ cordinates\ according\ to\ the\ zoom\ factor\ \r\n
+numComments=2

@@ -1,0 +1,18 @@
+package Tools.KeyboardAction;
+
+
+import java.awt.event.*;
+public class Listener implements KeyListener 
+{   int key = -1;
+    public void keyPressed(KeyEvent e)
+    {
+        key = e.getKeyCode();
+        
+    }
+    public void keyReleased(KeyEvent e)
+    {
+    }
+    public void keyTyped(KeyEvent e)
+    {
+    }
+}

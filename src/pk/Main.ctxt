@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Main()
+comment1.params=e
+comment1.target=void\ windowClosing(java.awt.event.WindowEvent)
+comment2.params=a
+comment2.target=void\ zoomed(double)
+comment2.text=Method\ implemented\ from\ ZoomListener\ \r\nManages\ Zooming\ function\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=Main\ method\r\n\ Creating\ an\ instance\ of\ Main\ class\r\n
+comment4.params=w\ h
+comment4.target=void\ dimensionChanged(int,\ int)
+comment5.params=img\ newW\ newH
+comment5.target=java.awt.image.BufferedImage\ resize(java.awt.image.BufferedImage,\ int,\ int)
+comment5.text=Method\ to\ resize\ a\ BufferedImage\ \r\n\ \ \ img\ BufferedImage\ to\ resize\r\n\ \ \ newW\ ->\ Width\ of\ the\ resized\ image\r\n\ \ \ newH\ ->\ Height\ of\ the\ resized\ image\r\n
+numComments=6

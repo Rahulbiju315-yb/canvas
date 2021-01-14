@@ -1,0 +1,24 @@
+package Tools;
+
+
+import javax.swing.*;
+import java.awt.*;
+
+public class ColorPallete
+{
+    JPanel parent = new JPanel();
+
+    /**
+     * Constructor for objects of class ColorPallete
+     */
+    public ColorPallete(JPanel panel)
+    {
+        parent = panel;
+    }
+
+    public void show()
+    {
+        Color c =JColorChooser.showDialog(parent,"Color Chooser",ColorModel.getColor());
+        ColorModel.setColor(c);
+    }
+}

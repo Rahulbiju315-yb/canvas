@@ -1,0 +1,48 @@
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.*;
+import Tools.*;
+import javax.swing.border.*;
+class PropertiesBar extends JPanel
+{
+    JLabel selCol = new JLabel("COLOR");
+    public void update(int a)
+    {
+        setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
+        boolean flag = true;
+        if(a ==SquareTool.SQUARE_TOOL && flag)
+        {
+        removeAll(); 
+        add(new SquareProp());
+        System.out.println("romed");
+        revalidate();
+        repaint();
+        flag = false;
+      }
+      else if(a ==OvalTool.OVAL_TOOL && flag)
+        {
+        removeAll(); 
+        add(new OvalProp());
+        System.out.println("romed");
+        revalidate();
+        repaint();
+        flag = false;
+      }
+        else{
+        removeAll();
+        revalidate();
+        flag = true;
+      }
+        
+      selCol.setPreferredSize(new Dimension(50,50));
+        selCol.setBackground(ColorModel.color);
+        selCol.setOpaque(true);
+        add(selCol);
+        setBorder(new BevelBorder(BevelBorder.RAISED));
+    }
+    public void setColor(Color c)
+    {
+        selCol.setBackground(ColorModel.color);
+        repaint();
+    }
+}

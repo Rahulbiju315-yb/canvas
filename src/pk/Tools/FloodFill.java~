@@ -1,0 +1,77 @@
+package Tools;
+
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.util.LinkedList;
+import java.util.Queue;
+import javax.imageio.ImageIO;
+import javax.management.Query;
+
+public class FloodFill extends AbstractHandler {
+
+     
+    public static boolean isColor( int posX, int posY,int r) {
+         int color=(easel.getImage()).getRGB(posX, posY);
+
+        int brightness = (color & 0xFF) + ((color >> 2) & 0xFF)
+        + ((color >> 4) & 0xFF);
+        brightness /= 3;
+
+        return brightness < 128;
+    }
+
+
+    public void handle(int x,int y,int x1,int y1) {
+       
+
+
+        // String filename =
+        // "C:\\Users\\Natthawut\\Desktop\\blob.jpg";
+        try {
+
+
+            boolean[][] painted = new boolean[(easel.getImage()).getHeight()][(easel.getImage()).getWidth()];
+
+            //for (int i = 0; i < (easel.getImage()).getHeight(); i++) {
+               // for (int j = 0; j < (easel.getImage()).getWidth(); j++) {
+
+                    if (isColor( y, x,x1) && !painted[x][y]) {
+
+                        Queue<Point> queue = new LinkedList<Point>();
+                        queue.add(new Point(y, x));
+
+                        int pixelCount = 0;
+                        while (!queue.isEmpty()) {
+                            Point p = queue.remove();
+
+                            if ((p.x >= 0)
+                                    && (p.x < (easel.getImage()).getWidth() && (p.y >= 0) && (p.y < (easel.getImage())
+                                            .getHeight()))) {
+                                if (!painted[p.y][p.x]
+                                                  && isColor( p.x, p.y,x1)) {
+                                    painted[p.y][p.x] = true;
+                                    (easel.getImage()).setRGB(p.x,p.y,(Color.white).getRGB());
+
+                                    queue.add(new Point(p.x + 1, p.y));
+                                    queue.add(new Point(p.x - 1, p.y));
+                                    queue.add(new Point(p.x, p.y + 1));
+                                    queue.add(new Point(p.x, p.y - 1));
+                                }
+                            }
+                        }
+                        System.out.println("Blob detected : " + pixelCount
+                                + " pixels");
+                    }
+
+                //}
+            //}
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
+    }
+     
+}

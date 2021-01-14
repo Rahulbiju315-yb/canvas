@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=SelectionPanel(int,\ int)
+comment0.text=\r\n\ constructor.\r\n\ a\ \=>\ Width\ of\ copy\ area\r\n\ b\ \=>\ Height\ of\ copy\ area\r\n
+comment1.params=w\ h
+comment1.target=void\ setArea(int,\ int)
+comment1.text=\r\n\ Set\ area\ of\ the\ copy\ area\r\n
+comment2.params=g
+comment2.target=void\ paint(java.awt.Graphics)
+comment3.params=
+comment3.target=void\ copy()
+comment3.text=\r\n\ Copy\ image\ from\ the\ selection\ panel\ to\ the\ clipboard\r\n
+numComments=4

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=size
+comment0.target=SizedStack(int)
+comment1.params=object
+comment1.target=java.lang.Object\ push(java.lang.Object)
+numComments=2

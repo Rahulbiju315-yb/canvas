@@ -1,0 +1,9 @@
+package pk.Tools;
+
+
+import Resize.*;
+public abstract class  SelectBackground extends Resizable
+{
+    public abstract Resizable getResizable(); 
+    public abstract void setResizable(Resizable jp);
+}

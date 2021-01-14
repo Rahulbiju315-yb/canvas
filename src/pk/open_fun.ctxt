@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=panel\ fr
+comment0.target=open_fun(javax.swing.JPanel,\ Main)
+comment1.params=
+comment1.target=void\ openMenu()
+comment1.text=\r\n\ Display\ file\ chooser\r\n
+comment2.params=f
+comment2.target=void\ open(java.io.File)
+comment2.text=\r\n\ \ Open\ a\ file\ f\ (\ image\ file\ )\ and\ store\ it\ in\ image.\r\n
+comment3.params=
+comment3.target=java.awt.Dimension\ getPreferredSize()
+comment3.text=\r\n\ \ Returns\ the\ size\ of\ the\ image.\r\n
+comment4.params=
+comment4.target=void\ paintPicture()
+comment4.text=\r\n\ \ Paints\ the\ loaded\ picture\ onto\ the\ easel\r\n
+numComments=5
