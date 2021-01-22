@@ -1,6 +1,0 @@
-
-import java.awt.*;
-public class IconFactory
-{
-   static ImageIcon SQUARE_ICON;
-}
